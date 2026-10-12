@@ -1,0 +1,80 @@
+/*Reset básico de estilos*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333;
+	background-color: #f4f4f4;
+}
+
+/* Cabeçalho e navagação */
+
+#cabecalho-principal{
+	background-color: #1943ca;
+	color: rgb(208, 231, 238);
+	padding: 20px 0;
+	text-align: center;
+}
+
+#cabecalho-principal h1{
+	margin-bottom: 15px;
+	color: #f4f4f4;
+}
+
+#cabecalho-principal nav ul{
+	display: flex;
+	list-style: none;
+	gap: 8px;
+	padding: 10px;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+#cabecalho-principal nav a{
+	color: #FFF;
+	text-decoration: none;
+	padding: 10px 20px;
+	font-weight: 600;
+	border-radius: 5px;
+}
+
+/* Efeito ao passar o mouser*/
+#cabecalho-principal nav a:hover{
+	background-color: #f4f4f4;
+	color: #1943ca;
+}
+
+/* Main */
+#main-content{
+	max-width: 900px;
+	background-color: #FFF;
+	margin: 20px auto;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+#main-content h2, #main-content h3{
+	color: #333;
+}
+
+#main-content h3{
+	margin-top: 15px;
+}
+
+main img.logo{
+	width: 400px; /* Largura de 400 pixels */   
+	margin: 20px auto;
+	display: block;
+}
+
+#footer-content{
+	text-align: center;
+	background-color: #333;
+	color: #f4f4f4;
+	padding: 20px;
+}
